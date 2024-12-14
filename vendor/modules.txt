@@ -24,7 +24,7 @@ github.com/lib/pq/scram
 github.com/paulmach/orb
 github.com/paulmach/orb/encoding/wkt
 github.com/paulmach/orb/geojson
-# github.com/sfomuseum/go-database v0.0.8
+# github.com/sfomuseum/go-database v0.0.10
 ## explicit; go 1.23.3
 github.com/sfomuseum/go-database/sql
 # github.com/sfomuseum/go-edtf v1.1.1
@@ -67,7 +67,7 @@ github.com/whosonfirst/go-rfc-5646
 # github.com/whosonfirst/go-whosonfirst-crawl v0.2.2
 ## explicit; go 1.18
 github.com/whosonfirst/go-whosonfirst-crawl
-# github.com/whosonfirst/go-whosonfirst-database v0.0.3
+# github.com/whosonfirst/go-whosonfirst-database v0.0.5
 ## explicit; go 1.23.3
 github.com/whosonfirst/go-whosonfirst-database/app/sql/index
 github.com/whosonfirst/go-whosonfirst-database/app/sql/tables/create

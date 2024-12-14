@@ -4,7 +4,7 @@ go 1.23.3
 
 require (
 	github.com/lib/pq v1.10.9
-	github.com/whosonfirst/go-whosonfirst-database v0.0.4
+	github.com/whosonfirst/go-whosonfirst-database v0.0.5
 )
 
 require (
@@ -14,7 +14,7 @@ require (
 	github.com/hashicorp/errwrap v1.0.0 // indirect
 	github.com/hashicorp/go-multierror v1.1.1 // indirect
 	github.com/paulmach/orb v0.11.1 // indirect
-	github.com/sfomuseum/go-database v0.0.9 // indirect
+	github.com/sfomuseum/go-database v0.0.10 // indirect
 	github.com/sfomuseum/go-edtf v1.1.1 // indirect
 	github.com/sfomuseum/go-flags v0.10.0 // indirect
 	github.com/tidwall/gjson v1.18.0 // indirect
