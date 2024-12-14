@@ -80,16 +80,19 @@ $> ./bin/wof-postgres-index \
 	-database-uri 'sql://postgres?dsn=user=asc host=localhost dbname=whosonfirst sslmode=disable' \
 	-timings -spatial-tables \
 	/usr/local/data/whosonfirst-data-admin-us/
-	
-2024/12/13 10:01:14 INFO Time to index table table=geojson count=98764 time=7.604906428s
-2024/12/13 10:01:14 INFO Time to index table table=rtree count=98764 time=14.588749044s
-2024/12/13 10:01:14 INFO Time to index table table=properties count=98764 time=6.109436136s
-2024/12/13 10:01:14 INFO Time to index table table=spr count=98764 time=29.349679552s
+
+2024/12/14 13:09:19 INFO Time to index table table=geojson count=40089 time=14.284594424s
+2024/12/14 13:09:19 INFO Time to index table table=properties count=40089 time=8.692767507s
+2024/12/14 13:09:19 INFO Time to index table table=spr count=40089 time=16.922203837s
+2024/12/14 13:09:19 INFO Time to index table table=geometries count=40089 time=19.79474847s
+2024/12/14 13:09:19 INFO Time to index all count=40089 time=1m0.000138958s
 ...
-2024/12/13 10:04:14 INFO Time to index table table=properties count=410829 time=35.907407165s
-2024/12/13 10:04:14 INFO Time to index table table=spr count=410829 time=1m42.546600206s
-2024/12/13 10:04:14 INFO Time to index all count=410829 time=4m0.01180175s
-2024/12/13 10:05:07 time to index paths (1) 4m52.480048125s
+2024/12/14 13:15:19 INFO Time to index table table=spr count=419039 time=2m1.527413667s
+2024/12/14 13:15:19 INFO Time to index table table=geometries count=419039 time=1m53.67685761s
+2024/12/14 13:15:19 INFO Time to index table table=geojson count=419039 time=1m46.150728117s
+2024/12/14 13:15:19 INFO Time to index table table=properties count=419039 time=1m15.808681398s
+2024/12/14 13:15:19 INFO Time to index all count=419039 time=7m0.005669541s
+2024/12/14 13:15:31 time to index paths (1) 7m12.867244416s
 ```
 
 ## See also
