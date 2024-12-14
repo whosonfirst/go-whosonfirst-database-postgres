@@ -10,6 +10,8 @@ Documentation is incomplete at this time.
 
 This package is a very thin wrapper around the [whosonfirst/go-whosonfirst-database](https://github.com/whosonfirst/go-whosonfirst-database) package. That package provides all of the actual functionality for indexing Who's On First records but does NOT load any specific `database/sql` drivers. That happens in this package.
 
+It uses the [lib/pq](https://github.com/lib/pq) database driver for interacting with Postgres.
+
 ## Tools
 
 ```
@@ -74,6 +76,8 @@ $> ./bin/wof-postgres-index -h
   -verbose
     	Enable verbose (debug) logging
 ```
+
+For example:
 
 ```
 $> ./bin/wof-postgres-index \
