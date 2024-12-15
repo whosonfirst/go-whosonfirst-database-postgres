@@ -4,7 +4,7 @@ go 1.23.3
 
 require (
 	github.com/lib/pq v1.10.9
-	github.com/whosonfirst/go-whosonfirst-database v0.0.5
+	github.com/whosonfirst/go-whosonfirst-database v0.0.7
 )
 
 require (

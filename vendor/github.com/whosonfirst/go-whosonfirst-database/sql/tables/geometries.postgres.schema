@@ -1,6 +1,6 @@
 CREATE TABLE {{ .Name }} (
 	id BIGINT NOT NULL,
-	geometry GEOGRAPHY(GEOMETRY, 4326),
+	geometry GEOMETRY,
 	type TEXT,
 	is_alt BOOLEAN,
 	alt_label TEXT,

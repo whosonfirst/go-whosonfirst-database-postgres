@@ -6,7 +6,7 @@ import (
 
 	_ "github.com/whosonfirst/go-whosonfirst-database-postgres"
 
-	"github.com/whosonfirst/go-whosonfirst-database/app/sql/index"
+	"github.com/whosonfirst/go-whosonfirst-database/app/sql/tables/index"
 )
 
 func main() {
